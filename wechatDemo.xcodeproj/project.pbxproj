@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF81FC024C04C2500048970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FBF24C04C2500048970 /* AppDelegate.m */; };
+		2BF81FC324C04C2500048970 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FC224C04C2500048970 /* SceneDelegate.m */; };
+		2BF81FC624C04C2500048970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FC524C04C2500048970 /* ViewController.m */; };
+		2BF81FC924C04C2500048970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF81FC724C04C2500048970 /* Main.storyboard */; };
+		2BF81FCB24C04C2700048970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF81FCA24C04C2700048970 /* Assets.xcassets */; };
+		2BF81FCE24C04C2700048970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF81FCC24C04C2700048970 /* LaunchScreen.storyboard */; };
+		2BF81FD124C04C2700048970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FD024C04C2700048970 /* main.m */; };
+		2BF81FD824C0591700048970 /* sessions.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BF81FD724C0591700048970 /* sessions.json */; };
+		2BF81FDB24C05AD500048970 /* chatCellDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FDA24C05AD500048970 /* chatCellDataModel.m */; };
+		2BF81FDE24C0631000048970 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FDD24C0631000048970 /* ChatTableViewCell.m */; };
+		2BF81FFC24C06A5C00048970 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2BF81FE024C06A5C00048970 /* LICENSE */; };
+		2BF81FFD24C06A5C00048970 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FE324C06A5C00048970 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2BF81FFE24C06A5C00048970 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FEC24C06A5C00048970 /* ViewController+MASAdditions.m */; };
+		2BF81FFF24C06A5C00048970 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FF024C06A5C00048970 /* MASCompositeConstraint.m */; };
+		2BF8200024C06A5C00048970 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FF124C06A5C00048970 /* MASConstraintMaker.m */; };
+		2BF8200124C06A5C00048970 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FF224C06A5C00048970 /* MASLayoutConstraint.m */; };
+		2BF8200224C06A5C00048970 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FF324C06A5C00048970 /* NSArray+MASAdditions.m */; };
+		2BF8200324C06A5C00048970 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FF424C06A5C00048970 /* View+MASAdditions.m */; };
+		2BF8200424C06A5C00048970 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FF724C06A5C00048970 /* MASConstraint.m */; };
+		2BF8200524C06A5C00048970 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FF924C06A5C00048970 /* MASViewConstraint.m */; };
+		2BF8200624C06A5C00048970 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF81FFA24C06A5C00048970 /* MASViewAttribute.m */; };
+		2BF8200724C06A5C00048970 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2BF81FFB24C06A5C00048970 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BF81FBB24C04C2500048970 /* wechatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF81FBE24C04C2500048970 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BF81FBF24C04C2500048970 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BF81FC124C04C2500048970 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2BF81FC224C04C2500048970 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2BF81FC424C04C2500048970 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BF81FC524C04C2500048970 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BF81FC824C04C2500048970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BF81FCA24C04C2700048970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BF81FCD24C04C2700048970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BF81FCF24C04C2700048970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF81FD024C04C2700048970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BF81FD724C0591700048970 /* sessions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sessions.json; sourceTree = "<group>"; };
+		2BF81FD924C05AD500048970 /* chatCellDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatCellDataModel.h; sourceTree = "<group>"; };
+		2BF81FDA24C05AD500048970 /* chatCellDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatCellDataModel.m; sourceTree = "<group>"; };
+		2BF81FDC24C0631000048970 /* ChatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		2BF81FDD24C0631000048970 /* ChatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		2BF81FE024C06A5C00048970 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2BF81FE224C06A5C00048970 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2BF81FE324C06A5C00048970 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2BF81FE424C06A5C00048970 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2BF81FE524C06A5C00048970 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2BF81FE624C06A5C00048970 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2BF81FE724C06A5C00048970 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2BF81FE824C06A5C00048970 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2BF81FE924C06A5C00048970 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2BF81FEA24C06A5C00048970 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2BF81FEB24C06A5C00048970 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2BF81FEC24C06A5C00048970 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2BF81FED24C06A5C00048970 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2BF81FEE24C06A5C00048970 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2BF81FEF24C06A5C00048970 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2BF81FF024C06A5C00048970 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2BF81FF124C06A5C00048970 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2BF81FF224C06A5C00048970 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2BF81FF324C06A5C00048970 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2BF81FF424C06A5C00048970 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2BF81FF524C06A5C00048970 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2BF81FF624C06A5C00048970 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2BF81FF724C06A5C00048970 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2BF81FF824C06A5C00048970 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2BF81FF924C06A5C00048970 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2BF81FFA24C06A5C00048970 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2BF81FFB24C06A5C00048970 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF81FB824C04C2500048970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BF81FB224C04C2500048970 = {
+			isa = PBXGroup;
+			children = (
+				2BF81FDF24C06A5C00048970 /* Masonry */,
+				2BF81FBD24C04C2500048970 /* wechatDemo */,
+				2BF81FBC24C04C2500048970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BF81FBC24C04C2500048970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BF81FBB24C04C2500048970 /* wechatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF81FBD24C04C2500048970 /* wechatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BF81FD724C0591700048970 /* sessions.json */,
+				2BF81FBE24C04C2500048970 /* AppDelegate.h */,
+				2BF81FBF24C04C2500048970 /* AppDelegate.m */,
+				2BF81FC124C04C2500048970 /* SceneDelegate.h */,
+				2BF81FC224C04C2500048970 /* SceneDelegate.m */,
+				2BF81FC424C04C2500048970 /* ViewController.h */,
+				2BF81FC524C04C2500048970 /* ViewController.m */,
+				2BF81FD924C05AD500048970 /* chatCellDataModel.h */,
+				2BF81FDA24C05AD500048970 /* chatCellDataModel.m */,
+				2BF81FDC24C0631000048970 /* ChatTableViewCell.h */,
+				2BF81FDD24C0631000048970 /* ChatTableViewCell.m */,
+				2BF81FC724C04C2500048970 /* Main.storyboard */,
+				2BF81FCA24C04C2700048970 /* Assets.xcassets */,
+				2BF81FCC24C04C2700048970 /* LaunchScreen.storyboard */,
+				2BF81FCF24C04C2700048970 /* Info.plist */,
+				2BF81FD024C04C2700048970 /* main.m */,
+			);
+			path = wechatDemo;
+			sourceTree = "<group>";
+		};
+		2BF81FDF24C06A5C00048970 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2BF81FE024C06A5C00048970 /* LICENSE */,
+				2BF81FE124C06A5C00048970 /* Masonry */,
+				2BF81FFB24C06A5C00048970 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		2BF81FE124C06A5C00048970 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2BF81FE224C06A5C00048970 /* MASCompositeConstraint.h */,
+				2BF81FE324C06A5C00048970 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2BF81FE424C06A5C00048970 /* MASConstraint+Private.h */,
+				2BF81FE524C06A5C00048970 /* MASLayoutConstraint.h */,
+				2BF81FE624C06A5C00048970 /* NSArray+MASShorthandAdditions.h */,
+				2BF81FE724C06A5C00048970 /* MASConstraintMaker.h */,
+				2BF81FE824C06A5C00048970 /* View+MASAdditions.h */,
+				2BF81FE924C06A5C00048970 /* NSArray+MASAdditions.h */,
+				2BF81FEA24C06A5C00048970 /* MASUtilities.h */,
+				2BF81FEB24C06A5C00048970 /* MASViewAttribute.h */,
+				2BF81FEC24C06A5C00048970 /* ViewController+MASAdditions.m */,
+				2BF81FED24C06A5C00048970 /* MASViewConstraint.h */,
+				2BF81FEE24C06A5C00048970 /* MASConstraint.h */,
+				2BF81FEF24C06A5C00048970 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2BF81FF024C06A5C00048970 /* MASCompositeConstraint.m */,
+				2BF81FF124C06A5C00048970 /* MASConstraintMaker.m */,
+				2BF81FF224C06A5C00048970 /* MASLayoutConstraint.m */,
+				2BF81FF324C06A5C00048970 /* NSArray+MASAdditions.m */,
+				2BF81FF424C06A5C00048970 /* View+MASAdditions.m */,
+				2BF81FF524C06A5C00048970 /* View+MASShorthandAdditions.h */,
+				2BF81FF624C06A5C00048970 /* Masonry.h */,
+				2BF81FF724C06A5C00048970 /* MASConstraint.m */,
+				2BF81FF824C06A5C00048970 /* ViewController+MASAdditions.h */,
+				2BF81FF924C06A5C00048970 /* MASViewConstraint.m */,
+				2BF81FFA24C06A5C00048970 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BF81FBA24C04C2500048970 /* wechatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF81FD424C04C2700048970 /* Build configuration list for PBXNativeTarget "wechatDemo" */;
+			buildPhases = (
+				2BF81FB724C04C2500048970 /* Sources */,
+				2BF81FB824C04C2500048970 /* Frameworks */,
+				2BF81FB924C04C2500048970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wechatDemo;
+			productName = wechatDemo;
+			productReference = 2BF81FBB24C04C2500048970 /* wechatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BF81FB324C04C2500048970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Bytedance;
+				TargetAttributes = {
+					2BF81FBA24C04C2500048970 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 2BF81FB624C04C2500048970 /* Build configuration list for PBXProject "wechatDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BF81FB224C04C2500048970;
+			productRefGroup = 2BF81FBC24C04C2500048970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BF81FBA24C04C2500048970 /* wechatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BF81FB924C04C2500048970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF8200724C06A5C00048970 /* README.md in Resources */,
+				2BF81FD824C0591700048970 /* sessions.json in Resources */,
+				2BF81FCE24C04C2700048970 /* LaunchScreen.storyboard in Resources */,
+				2BF81FCB24C04C2700048970 /* Assets.xcassets in Resources */,
+				2BF81FC924C04C2500048970 /* Main.storyboard in Resources */,
+				2BF81FFC24C06A5C00048970 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF81FB724C04C2500048970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF8200524C06A5C00048970 /* MASViewConstraint.m in Sources */,
+				2BF81FC624C04C2500048970 /* ViewController.m in Sources */,
+				2BF8200024C06A5C00048970 /* MASConstraintMaker.m in Sources */,
+				2BF81FC024C04C2500048970 /* AppDelegate.m in Sources */,
+				2BF81FFE24C06A5C00048970 /* ViewController+MASAdditions.m in Sources */,
+				2BF81FFD24C06A5C00048970 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2BF81FFF24C06A5C00048970 /* MASCompositeConstraint.m in Sources */,
+				2BF81FD124C04C2700048970 /* main.m in Sources */,
+				2BF8200124C06A5C00048970 /* MASLayoutConstraint.m in Sources */,
+				2BF8200324C06A5C00048970 /* View+MASAdditions.m in Sources */,
+				2BF8200224C06A5C00048970 /* NSArray+MASAdditions.m in Sources */,
+				2BF81FDB24C05AD500048970 /* chatCellDataModel.m in Sources */,
+				2BF81FC324C04C2500048970 /* SceneDelegate.m in Sources */,
+				2BF8200624C06A5C00048970 /* MASViewAttribute.m in Sources */,
+				2BF8200424C06A5C00048970 /* MASConstraint.m in Sources */,
+				2BF81FDE24C0631000048970 /* ChatTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BF81FC724C04C2500048970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BF81FC824C04C2500048970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BF81FCC24C04C2700048970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BF81FCD24C04C2700048970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BF81FD224C04C2700048970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BF81FD324C04C2700048970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BF81FD524C04C2700048970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wechatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bytedance.wechatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF81FD624C04C2700048970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wechatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bytedance.wechatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF81FB624C04C2500048970 /* Build configuration list for PBXProject "wechatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF81FD224C04C2700048970 /* Debug */,
+				2BF81FD324C04C2700048970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF81FD424C04C2700048970 /* Build configuration list for PBXNativeTarget "wechatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF81FD524C04C2700048970 /* Debug */,
+				2BF81FD624C04C2700048970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BF81FB324C04C2500048970 /* Project object */;
+}
