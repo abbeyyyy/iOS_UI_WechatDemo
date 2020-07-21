@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "chatCellDataModel.h"
 #import "ChatTableViewCell.h"
+#import "wechatNetworkManager.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -24,11 +25,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    NSDictionary *dict = [self JSONToDict];
-    self.dataModel = [NSMutableArray arrayWithCapacity:20];
-    for (NSDictionary *item in dict) {
-        [self.dataModel addObject:[[chatCellDataModel alloc] initWithDictionary: item]];
-    }
+    [[wechatNetworkManager sharedManager] dataTaskRequest:^(NSArray * _Nonnull obj) {
+        self.dataModel = [NSMutableArray arrayWithCapacity:20];
+        for (NSDictionary *item in obj) {
+            [self.dataModel addObject:[[chatCellDataModel alloc] initWithDictionary: item]];
+        }
+        [self.tableView reloadData];
+    }];
     [self.view addSubview:self.tableView];
 }
 
